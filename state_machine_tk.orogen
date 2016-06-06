@@ -1,0 +1,14 @@
+name "state_machine_tk"
+
+import_types_from "state_machine/Events.hpp"
+import_types_from "base"
+
+typekit do
+
+    export_types 
+        '/state_machine/serialization/State'
+        '/state_machine/serialization/Transition'
+        '/state_machine/serialization/StateMachine'
+        '/state_machine/serialization/Event'
+end
+
