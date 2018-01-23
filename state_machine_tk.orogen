@@ -1,5 +1,7 @@
 name "state_machine_tk"
 
+using_library "state_machine"
+
 import_types_from "state_machine/Events.hpp"
 import_types_from "base"
 
